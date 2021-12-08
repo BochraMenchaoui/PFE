@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Amiri&display=swap");
+
+* {
+    font-family: "Amiri", sans-serif;
+}
+
+.parent,
+.card-body,
+.card-header {
+    border-radius: 10px;
+    border-color: #ac3d3f;
+}
+
+.card-header {
+    padding: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+#child {
+    margin: 0;
+}
+
+#sub-child {
+    background-color: #ac3d3f;
+    border-top-left-radius: 10px;
+}
+
+#sub-child h3 {
+    color: #fff;
+}
+
+#latin {
+    color: #ac3d3f;
+}
+
+.parent:hover #child {
+    background-color: #ac3d3f;
+    transition: all 0.2s ease;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.parent:hover h3 {
+    color: white;
+}

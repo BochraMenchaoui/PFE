@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Amiri&display=swap");
+
+* {
+    font-family: "Amiri", sans-serif;
+}
+
+.list-group-item-action,
+.dropdown-item {
+    background-color: #ffffff;
+    color: #ac3d3f;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.dropdown-item:hover {
+    background-color: #f8f4f4;
+    color: #ac3d3f;
+}
+
+.list-group-item-action:hover {
+    background-color: #ac3d3f;
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+}
+
+.notifications .num {
+    text-align: center;
+    font-size: 15px;
+    color: #8d0204;
+    display: inline-block;
+    position: absolute;
+    transform: translate(-50%, -20%);
+    background-color: #d4bcbc;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+
+.toggleCustom {
+    font-size: 25px;
+    color: #ffffff;
+}
+.toggleCustom:hover {
+    color: #fff;
+}
+.navbar {
+    background-color: #ac3d3f;
+}
+#wrapper {
+    overflow-x: hidden;
+}
+.nav-link {
+    color: #ffffff;
+}
+#navbarDropdown {
+    color: #ffffff;
+    font-size: 20px;
+}
+.fa-bell {
+    color: #ffffff;
+    font-size: 30px;
+}
+#sidebar-wrapper {
+    min-height: 100vh;
+    margin-left: -15rem;
+    -webkit-transition: margin 0.25s ease-out;
+    -moz-transition: margin 0.25s ease-out;
+    -o-transition: margin 0.25s ease-out;
+    transition: margin 0.25s ease-out;
+    background-color: #ffffff;
+}
+
+#sidebar-wrapper .sidebar-heading {
+    padding: 0.875rem 1.25rem;
+    font-size: 1.2rem;
+}
+
+#sidebar-wrapper .list-group {
+    width: 15rem;
+}
+
+#page-content-wrapper {
+    min-width: 100vw;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+    margin-left: 0;
+}
+
+@media (min-width: 768px) {
+    #sidebar-wrapper {
+        margin-left: 0;
+    }
+
+    #page-content-wrapper {
+        min-width: 0;
+        width: 100%;
+        background-color: rgb(255, 248, 248);
+    }
+
+    #wrapper.toggled #sidebar-wrapper {
+        margin-left: -15rem;
+    }
+}
+
+@media (max-width: 640px) {
+    .dropdown-menu {
+        top: 50px;
+        left: -16px;
+        width: 290px;
+    }
+    .nav {
+        display: block;
+    }
+    .nav .nav-item,
+    .nav .nav-item a {
+        padding-left: 0px;
+    }
+    .message {
+        font-size: 13px;
+    }
+}

@@ -1,0 +1,52 @@
+.form-group {
+    text-align: right;
+}
+.btn-outline-danger,
+.btn-outline-secondary {
+    margin-top: 15px;
+    font-size: 20px;
+    width: 200px;
+}
+.btn-outline-danger:hover {
+    background-color: #ac3b3c;
+    border-color: #ac3d3f;
+}
+.btn-outline-secondary:hover {
+    background-color: #585858;
+    border-color: #585858;
+}
+.form-control {
+    border: 1px solid #cfd1d8;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    font-size: 20px;
+    background: #ffffff;
+    color: #2e323c;
+    text-align: right;
+}
+
+.card {
+    padding: 20px;
+    margin-top: 50px;
+    background: #ffffff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #ac3b3c;
+    margin-bottom: 1rem;
+    box-shadow: 8px 5px 5px#e2d1d1;
+}
+
+#profilepic:hover {
+    cursor: pointer;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.maxsize {
+    width: 200px;
+    height: 200px;
+}

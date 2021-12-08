@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Amiri&display=swap");
+
+* {
+    font-family: "Amiri", sans-serif;
+}
+
+.card-custom {
+    border-radius: 10px;
+    border-color: #ac3d3f;
+}
+
+.card-custom p {
+    font-size: 20px;
+}
+
+.card-header {
+    padding: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#def {
+    background-color: #ac3d3f;
+    border-bottom-left-radius: 0;
+}
+
+h3 {
+    color: #ac3d3f;
+}
+
+#def h3,
+#org h3 {
+    color: #fff;
+}
+
+#org {
+    background-color: #ac3d3f;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#title {
+    margin: 0;
+}
+
+.vote {
+    color: #ac3d3f;
+}
+
+.vote:hover {
+    cursor: pointer;
+}
+.card-footer {
+    border-top-color: #ac3d3f;
+}
+
+.count {
+    font-size: 25px;
+}
+
+.d-block a:hover {
+    cursor: pointer;
+}
+
+#textarea {
+    resize: none;
+    height: 70px;
+}
+
+#commentSection {
+    background-color: rgb(218, 218, 218);
+    border-radius: 5px;
+}
+
+#commentsTitle {
+    text-align: center;
+    border-bottom: solid 1px #ac3d3f;
+}
+
+.arrows {
+    color: #ac3d3f;
+}
+
+#commentAvatar {
+    height: 40px;
+    width: 40px;
+}
+
+#commentTheme {
+    border-radius: 10px;
+    border: 1px solid #ac3d3f;
+}
+
+#deleteIcon:hover {
+    cursor: pointer;
+}
+
+#deleteIcon {
+    color: #ac3d3f;
+}

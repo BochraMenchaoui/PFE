@@ -1,0 +1,90 @@
+.typing-meta {
+    position: relative;
+    display: inline-block;
+    margin-left: 1rem;
+    font-style: italic;
+}
+
+.typing-meta:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 100%;
+    width: 4px;
+    background-color: #f9ac2f;
+    -webkit-animation: blink 2s infinite;
+    animation: blink 2s infinite;
+}
+
+.typing {
+    position: relative;
+    display: inline-block;
+    line-height: inherit;
+}
+
+.typing .dot {
+    position: relative;
+    display: inline-block;
+    border-radius: 50%;
+    width: 0.6rem;
+    height: 0.6rem;
+    -webkit-animation: typing 1.2s infinite ease-in-out;
+    animation: typing 1.2s infinite ease-in-out;
+}
+
+.typing .dot:nth-child(2) {
+    -webkit-animation-delay: 150ms;
+    animation-delay: 150ms;
+}
+
+.typing .dot:nth-child(3) {
+    -webkit-animation-delay: 300ms;
+    animation-delay: 300ms;
+}
+
+@-webkit-keyframes typing {
+    50%,
+    100%,
+    0% {
+        transform: translateY(0);
+    }
+
+    25% {
+        transform: translateY(-150%);
+    }
+}
+
+@keyframes typing {
+    50%,
+    100%,
+    0% {
+        transform: translateY(0);
+    }
+
+    25% {
+        transform: translateY(-150%);
+    }
+}
+
+@-webkit-keyframes blink {
+    0%,
+    100% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+}
+
+@keyframes blink {
+    0%,
+    100% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+}
